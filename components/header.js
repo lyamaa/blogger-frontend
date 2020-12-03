@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {APP_NAME} from '../config'
 
 const Header = () => {
   return (
@@ -24,7 +25,7 @@ const Header = () => {
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="https://bulma.io/">
-            Home
+            {APP_NAME}
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
             <a
